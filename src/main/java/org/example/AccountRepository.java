@@ -17,13 +17,19 @@ public class AccountRepository {
 
     public Account getAccount(String id) {
         // verify if account exists
-        for (Account account : accounts) {
-            if (account.id().equals(id)) {
-                return account;
-            }
-        }
+//        for (Account account : accounts) {
+//            if (account.id().equals(id)) {
+//                return account;
+//            }
+//        }
+//      return null;
 
-        return null;
+        // java streams - kukunin mo yung collection tapos meron ng additional methods to avoid looping parts
+        return accounts
+                .stream()
+                .filter(account -> account.id().equals(id))
+                .findFirst()
+                .orElse(null);
     }
 
     public void deleteAccount(String id) {
@@ -35,6 +41,11 @@ public class AccountRepository {
             }
         }
 
+//        return accounts
+//                .stream()
+//                .filter(account -> account.id().equals(id))
+//                .findFirst()
+//                .isPresent(accounts::remove);
     }
 
     public Integer getNumberOfAccounts() {
