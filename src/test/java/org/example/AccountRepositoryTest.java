@@ -1,5 +1,6 @@
-package org.example;
+package test.java.org.example;
 
+import main.java.org.example.notes.AccountRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

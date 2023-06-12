@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="451112eb-ec85-42df-acbd-55e5008700b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-    </list>
+    <list default="true" id="451112eb-ec85-42df-acbd-55e5008700b4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,24 +24,49 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="79986fd3-0ba6-46aa-be51-0e359ba3e32f" />
+        <option name="url" value="https://github.com/xeniaumbal/apper-junit-XFUmbal.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2Qu3JH85oZRS3mcgq0ETME92sPf" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "17",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/xeniafrancine.umbal/Documents/Xenia/Bootcamp/Java/apper-junit-XFUmbal/apper-junit-xfumbal1/src/main/java/org/example/homework&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xeniafrancine.umbal\Documents\Xenia\Bootcamp\Java\apper-junit-XFUmbal\apper-junit-xfumbal1\src\main\java\org\example\homework" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -51,53 +76,87 @@
       <recent name="C:\Users\xeniafrancine.umbal\Documents\Xenia\Bootcamp\Java\apper-junit-XFUmbal\apper-junit-xfumbal1\day 1" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="main.java.org.example.homework" />
+      <recent name="main.java.org.example" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountRepositoryTest.successfulGetAccount">
-    <configuration name="AccountRepositoryTest.getNumberOfAccounts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="AccountRepositoryTest.successfulAccountCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="apper-junit-xfumbal1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="test.java.org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AccountRepositoryTest" />
-      <option name="METHOD_NAME" value="getNumberOfAccounts" />
+      <option name="PACKAGE_NAME" value="test.java.org.example" />
+      <option name="MAIN_CLASS_NAME" value="test.java.org.example.AccountRepositoryTest" />
+      <option name="METHOD_NAME" value="successfulAccountCreation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountRepositoryTest.successfulDeleteAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BalanceServiceTest.credit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="apper-junit-xfumbal1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="test.java.org.example.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AccountRepositoryTest" />
-      <option name="METHOD_NAME" value="successfulDeleteAccount" />
+      <option name="PACKAGE_NAME" value="test.java.org.example.homework" />
+      <option name="MAIN_CLASS_NAME" value="test.java.org.example.homework.BalanceServiceTest" />
+      <option name="METHOD_NAME" value="credit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountRepositoryTest.successfulGetAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BalanceServiceTest.successfullyDebit (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="apper-junit-xfumbal1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="test.java.org.example.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AccountRepositoryTest" />
-      <option name="METHOD_NAME" value="successfulGetAccount" />
+      <option name="PACKAGE_NAME" value="test.java.org.example.homework" />
+      <option name="MAIN_CLASS_NAME" value="test.java.org.example.homework.BalanceServiceTest" />
+      <option name="METHOD_NAME" value="successfullyDebit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BalanceServiceTest.successfullyDebit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apper-junit-xfumbal1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.org.example" />
+      <option name="MAIN_CLASS_NAME" value="test.java.org.example.BalanceServiceTest" />
+      <option name="METHOD_NAME" value="successfullyDebit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BalanceServiceTest.successfullyTransfer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apper-junit-xfumbal1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.org.example.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.org.example.homework" />
+      <option name="MAIN_CLASS_NAME" value="test.java.org.example.homework.BalanceServiceTest" />
+      <option name="METHOD_NAME" value="successfullyTransfer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,9 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AccountRepositoryTest.successfulGetAccount" />
-        <item itemvalue="JUnit.AccountRepositoryTest.getNumberOfAccounts" />
-        <item itemvalue="JUnit.AccountRepositoryTest.successfulDeleteAccount" />
+        <item itemvalue="JUnit.BalanceServiceTest.successfullyTransfer" />
+        <item itemvalue="JUnit.BalanceServiceTest.credit" />
+        <item itemvalue="JUnit.BalanceServiceTest.successfullyDebit (1)" />
+        <item itemvalue="JUnit.BalanceServiceTest.successfullyDebit" />
+        <item itemvalue="JUnit.AccountRepositoryTest.successfulAccountCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -121,5 +182,13 @@
       <updated>1686189566230</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/apper_junit_xfumbal1$BalanceServiceTest.ic" NAME="BalanceServiceTest Coverage Results" MODIFIED="1686563073001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.org.example.homework.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/apper_junit_xfumbal1$BalanceServiceTest_successfullyTransfer.ic" NAME="BalanceServiceTest.successfullyTransfer Coverage Results" MODIFIED="1686562642570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.org.example.homework.*</FILTER>
+    </SUITE>
   </component>
 </project>
