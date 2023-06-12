@@ -40,4 +40,8 @@ public class AccountRepository {
     public Integer getNumberOfAccounts() {
         return accounts.size();
     }
+
+    public boolean noRegisteredAccounts() {
+        return accounts.isEmpty();
+    }
 }

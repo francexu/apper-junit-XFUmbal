@@ -51,4 +51,15 @@ class BalanceServiceTest {
         // Verify
         Assertions.assertEquals(185.0, balanceService.getBalance(newAccount));
     }
+
+    @Test
+    void successfullyNoRegisteredAccounts() {
+        // Setup
+        AccountRepository accountRepository = new AccountRepository();
+        BalanceService balanceService = new BalanceService(accountRepository);
+
+        // Verify
+        Assertions.assertEquals(0, accountRepository.getNumberOfAccounts());
+        Assertions.assertTrue(accountRepository.noRegisteredAccounts());
+    }
 }
