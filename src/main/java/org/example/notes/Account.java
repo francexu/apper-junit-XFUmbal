@@ -1,10 +1,36 @@
 package main.java.org.example.notes;
+public class Account {
+    private String id;
+    private String name;
+    private double balance;
 
-// record is like a typical java class, may automatic na getter setter
-// final class
-public record Account(String id, String name, Double balance) {
+    public Account(String id, String name, double balance) {
+        this.id = id;
+        this.name = name;
+        this.balance = balance;
+    }
 
-    public Account withId(String id) {
-        return new Account(id, name(), balance());
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
     }
 }

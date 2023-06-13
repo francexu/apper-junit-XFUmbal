@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class BalanceService {
 
-    private AccountRepository accountRepository = new AccountRepository();;
+    private AccountRepository accountRepository = new AccountRepository();
     private Account account;
 
     public BalanceService(AccountRepository accountRepository){

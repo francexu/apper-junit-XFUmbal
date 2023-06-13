@@ -24,11 +24,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -81,7 +81,23 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AccountRepositoryTest.getAllAccountNames">
+    <configuration name="AccountRepositoryTest.getAllAccountNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apper-junit-xfumbal1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.org.example" />
+      <option name="MAIN_CLASS_NAME" value="test.java.org.example.AccountRepositoryTest" />
+      <option name="METHOD_NAME" value="getAllAccountNames" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BalanceServiceTest.credit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="apper-junit-xfumbal1" />
       <extension name="coverage">
@@ -93,38 +109,6 @@
       <option name="PACKAGE_NAME" value="test.java.org.example.homework" />
       <option name="MAIN_CLASS_NAME" value="test.java.org.example.homework.BalanceServiceTest" />
       <option name="METHOD_NAME" value="credit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BalanceServiceTest.successfullyDebit (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="apper-junit-xfumbal1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.org.example.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java.org.example.homework" />
-      <option name="MAIN_CLASS_NAME" value="test.java.org.example.homework.BalanceServiceTest" />
-      <option name="METHOD_NAME" value="successfullyDebit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BalanceServiceTest.successfullyDebit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="apper-junit-xfumbal1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java.org.example" />
-      <option name="MAIN_CLASS_NAME" value="test.java.org.example.BalanceServiceTest" />
-      <option name="METHOD_NAME" value="successfullyDebit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,13 +146,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.java.org.example.homework in apper-junit-xfumbal1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apper-junit-xfumbal1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.org.example.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.org.example.homework" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountRepositoryTest.getAllAccountNames" />
+        <item itemvalue="JUnit.BalanceServiceTest.credit" />
+        <item itemvalue="JUnit.main.java.org.example.homework in apper-junit-xfumbal1" />
         <item itemvalue="JUnit.BalanceServiceTest.successfullyNoRegisteredAccounts" />
         <item itemvalue="JUnit.BalanceServiceTest.successfullyTransfer" />
-        <item itemvalue="JUnit.BalanceServiceTest.credit" />
-        <item itemvalue="JUnit.BalanceServiceTest.successfullyDebit (1)" />
-        <item itemvalue="JUnit.BalanceServiceTest.successfullyDebit" />
       </list>
     </recent_temporary>
   </component>
@@ -184,10 +182,16 @@
     <servers />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/apper_junit_xfumbal1$BalanceServiceTest.ic" NAME="BalanceServiceTest Coverage Results" MODIFIED="1686563073001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/apper_junit_xfumbal1$BalanceServiceTest.ic" NAME="BalanceServiceTest Coverage Results" MODIFIED="1686617786268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.java.org.example.homework.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/apper_junit_xfumbal1$BalanceServiceTest_successfullyTransfer.ic" NAME="BalanceServiceTest.successfullyTransfer Coverage Results" MODIFIED="1686562642570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.java.org.example.homework.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/apper_junit_xfumbal1$main_java_org_example_homework_in_apper_junit_xfumbal1.ic" NAME="main.java.org.example.homework in apper-junit-xfumbal1 Coverage Results" MODIFIED="1686564030825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>main.java.org.example.homework.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/apper_junit_xfumbal1$BalanceServiceTest_credit.ic" NAME="BalanceServiceTest.credit Coverage Results" MODIFIED="1686617673316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.java.org.example.homework.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/apper_junit_xfumbal1$BalanceServiceTest_successfullyNoRegisteredAccounts.ic" NAME="BalanceServiceTest.successfullyNoRegisteredAccounts Coverage Results" MODIFIED="1686563750486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -1,6 +1,7 @@
 package main.java.org.example.notes;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 // database of accounts
 public class AccountRepository {
@@ -27,7 +28,7 @@ public class AccountRepository {
         // java streams - kukunin mo yung collection tapos meron ng additional methods to avoid looping parts
         return accounts
                 .stream()
-                .filter(account -> account.id().equals(id))
+                .filter(account -> account.getId().equals(id))
                 .findFirst()
                 .orElse(null);
     }
@@ -35,7 +36,7 @@ public class AccountRepository {
     public void deleteAccount(String id) {
         // verify first if account exists then delete
         for (Account account : accounts) {
-            if (account.id().equals(id)) {
+            if (account.getId().equals(id)) {
                 accounts.remove(account);
                 return;
             }
@@ -50,5 +51,16 @@ public class AccountRepository {
 
     public Integer getNumberOfAccounts() {
         return accounts.size();
+    }
+
+    public List<String> getAllAccountNames() {
+        return accounts
+                .stream()
+                .map(Account::getName)
+                .collect(Collectors.toList());
+    }
+
+    public void deleteAllAccounts() {
+        accounts.clear();
     }
 }
